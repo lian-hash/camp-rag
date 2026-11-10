@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 模型缓存（bge 下载的权重不要入库）
+.cache/
+models/
+*.bin
+*.safetensors
+
+# 评测产物
+results/*.json
+results/*.csv
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
