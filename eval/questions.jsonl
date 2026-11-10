@@ -1,0 +1,40 @@
+{"id": "f01", "type": "fact", "question": "春日露营基础套餐多少钱？", "gold_answer": "199 元", "gold_keywords": ["199"], "gold_docs": ["01-套餐说明.md"], "should_refuse": false}
+{"id": "f02", "type": "fact", "question": "秋日团建尊享套餐适合多少人使用？", "gold_answer": "8 至 12 人", "gold_keywords": ["8 至 12"], "gold_docs": ["01-套餐说明.md"], "should_refuse": false}
+{"id": "f03", "type": "fact", "question": "夏日星空套餐最晚可以预约到什么时候？", "gold_answer": "8 月 31 日", "gold_keywords": ["8", "31"], "gold_docs": ["01-套餐说明.md", "10-常见问题.md"], "should_refuse": false}
+{"id": "f04", "type": "fact", "question": "如果一次下单 3 份春日基础套餐，需要几顶双人帐篷？", "gold_answer": "3 顶", "gold_keywords": ["3", "帐篷"], "gold_docs": ["01-套餐说明.md"], "should_refuse": false}
+{"id": "f05", "type": "fact", "question": "东湖绿道营地 A 区一天最多能接多少份订单？", "gold_answer": "50 份", "gold_keywords": ["50"], "gold_docs": ["02-营地介绍.md"], "should_refuse": false}
+{"id": "f06", "type": "fact", "question": "梁子湖营地可以钓鱼吗，钓竿需要自己带吗？", "gold_answer": "可以钓鱼，钓竿需要自备，平台不提供", "gold_keywords": ["钓竿", "自备"], "gold_docs": ["02-营地介绍.md", "12-攻略-梁子湖.md"], "should_refuse": false}
+{"id": "f07", "type": "fact", "question": "订单从下单到结束一共经过几个状态？", "gold_answer": "7 个状态，另有已取消分支状态", "gold_keywords": ["七"], "gold_docs": ["03-订单规则.md"], "should_refuse": false}
+{"id": "f08", "type": "fact", "question": "订单支付只允许在哪个状态进行？", "gold_answer": "待支付", "gold_keywords": ["待支付"], "gold_docs": ["03-订单规则.md"], "should_refuse": false}
+{"id": "f09", "type": "fact", "question": "提交评价需要订单处于什么状态？", "gold_answer": "已完成", "gold_keywords": ["已完成"], "gold_docs": ["03-订单规则.md"], "should_refuse": false}
+{"id": "f10", "type": "fact", "question": "钱已经付了但车还没来，我现在不想去了，能把钱全退给我吗", "gold_answer": "是，全额退款", "gold_keywords": ["全额退款"], "gold_docs": ["04-取消与退款.md"], "should_refuse": false}
+{"id": "f11", "type": "fact", "question": "帐篷都已经送在路上了，这单我还能取消吗", "gold_answer": "不能，配送中及之后不开放取消，需联系客服", "gold_keywords": ["不能", "客服"], "gold_docs": ["04-取消与退款.md"], "should_refuse": false}
+{"id": "f12", "type": "fact", "question": "我想多住一天，要按原价多少收我的钱", "gold_answer": "50%", "gold_keywords": ["50"], "gold_docs": ["05-改期与续租.md"], "should_refuse": false}
+{"id": "f13", "type": "fact", "question": "满 300 减 50 那张优惠券的券编号是什么？", "gold_answer": "CP_FULL50", "gold_keywords": ["CP_FULL50"], "gold_docs": ["06-优惠券.md"], "should_refuse": false}
+{"id": "f14", "type": "fact", "question": "团建满 800 减 120 的券在什么时间段有效？", "gold_answer": "每年 9 月 1 日至 11 月 30 日", "gold_keywords": ["9 月 1 日", "11 月 30 日"], "gold_docs": ["06-优惠券.md"], "should_refuse": false}
+{"id": "f15", "type": "fact", "question": "提交一次评价能获得多少积分？", "gold_answer": "20 积分", "gold_keywords": ["20"], "gold_docs": ["07-积分.md"], "should_refuse": false}
+{"id": "f16", "type": "fact", "question": "399 元的订单最多能用多少积分抵现？", "gold_answer": "3990 积分，抵扣 39.9 元", "gold_keywords": ["3990"], "gold_docs": ["07-积分.md"], "should_refuse": false}
+{"id": "f17", "type": "fact", "question": "使用烤炉时要离帐篷多远？", "gold_answer": "3 米以上", "gold_keywords": ["3 米"], "gold_docs": ["09-装备使用与安全.md"], "should_refuse": false}
+{"id": "f18", "type": "fact", "question": "已支付但还没派车的订单，预计到达时间显示多少？", "gold_answer": "120 分钟左右的预估值", "gold_keywords": ["120"], "gold_docs": ["08-配送与布置.md"], "should_refuse": false}
+{"id": "f19", "type": "fact", "question": "去东湖那边玩半天，攻略里建议几点开始订", "gold_answer": "下午 3 点下单，4 点装备到场布置", "gold_keywords": ["3 点"], "gold_docs": ["11-攻略-东湖.md"], "should_refuse": false}
+{"id": "f20", "type": "fact", "question": "我可以自己带帐篷去吗，套餐费用会减少吗？", "gold_answer": "可以自带，但费用不会减少，因为收费包含装备租赁和配送布置服务", "gold_keywords": ["不", "减少"], "gold_docs": ["10-常见问题.md"], "should_refuse": false}
+{"id": "m01", "type": "multi_hop", "question": "我用春日基础套餐下了单，已经付款了，能不能把使用日期改到 10 月？", "gold_answer": "已支付状态允许改期，但春日基础套餐只能预约 3 月 1 日至 5 月 31 日，选 10 月会提示新日期不在可预约周期内，所以改不了", "gold_keywords": ["可预约周期", "3", "5"], "gold_docs": ["05-改期与续租.md", "01-套餐说明.md"], "should_refuse": false}
+{"id": "m02", "type": "multi_hop", "question": "我订了 2 份夏日星空套餐，在使用中续租 1 天，要加多少钱？", "gold_answer": "399 × 50% × 1 天 × 2 份 = 399 元", "gold_keywords": ["399", "50"], "gold_docs": ["05-改期与续租.md", "01-套餐说明.md"], "should_refuse": false}
+{"id": "m03", "type": "multi_hop", "question": "团建满 800 减 120 的券，能用在 399 元的夏日星空套餐上吗？", "gold_answer": "不能，399 元没达到 800 元门槛，券不可用", "gold_keywords": ["800", "门槛", "不可用"], "gold_docs": ["06-优惠券.md", "01-套餐说明.md"], "should_refuse": false}
+{"id": "m04", "type": "multi_hop", "question": "订单已经进入配送中状态了，我还能改期吗？", "gold_answer": "不能，改期只允许待支付和已支付状态，配送中之后不能改", "gold_keywords": ["待支付", "已支付", "不能"], "gold_docs": ["05-改期与续租.md", "03-订单规则.md"], "should_refuse": false}
+{"id": "m05", "type": "multi_hop", "question": "订单退款以后，之前用掉的优惠券会怎么样，还能再用吗？", "gold_answer": "券会退回成未使用状态，只要还在有效期内就能在下一单继续用", "gold_keywords": ["退回", "未使用"], "gold_docs": ["04-取消与退款.md", "06-优惠券.md"], "should_refuse": false}
+{"id": "m06", "type": "multi_hop", "question": "下单时用积分抵了现，后来订单退款了，积分会退回吗？", "gold_answer": "会，用掉多少积分就退回多少，积分余额恢复", "gold_keywords": ["退回", "积分"], "gold_docs": ["07-积分.md", "04-取消与退款.md"], "should_refuse": false}
+{"id": "m07", "type": "multi_hop", "question": "秋日团建套餐下 1 份，续租一天要加多少钱？", "gold_answer": "899 × 50% × 1 天 × 1 份 = 449.5 元", "gold_keywords": ["899", "50%"], "gold_docs": ["05-改期与续租.md", "01-套餐说明.md"], "should_refuse": false}
+{"id": "m08", "type": "multi_hop", "question": "配送中的订单想退款可以吗？", "gold_answer": "不行，退款只允许已支付状态，配送中已过退款节点，需要联系客服人工处理", "gold_keywords": ["已支付", "客服"], "gold_docs": ["04-取消与退款.md", "03-订单规则.md"], "should_refuse": false}
+{"id": "b01", "type": "boundary", "question": "你们公司的营业执照编号是多少？", "gold_answer": "语料未收录，应拒答", "gold_keywords": [], "gold_docs": [], "should_refuse": true}
+{"id": "b02", "type": "boundary", "question": "上个季度一共成交了多少单？", "gold_answer": "语料未收录，应拒答", "gold_keywords": [], "gold_docs": [], "should_refuse": true}
+{"id": "b03", "type": "boundary", "question": "配送骑手一个月工资多少？", "gold_answer": "语料未收录，应拒答", "gold_keywords": [], "gold_docs": [], "should_refuse": true}
+{"id": "b04", "type": "boundary", "question": "平台支持花呗分期付款吗？", "gold_answer": "语料未收录，应拒答", "gold_keywords": [], "gold_docs": [], "should_refuse": true}
+{"id": "b05", "type": "boundary", "question": "你们在成都有门店吗？", "gold_answer": "语料未收录，应拒答", "gold_keywords": [], "gold_docs": [], "should_refuse": true}
+{"id": "b06", "type": "boundary", "question": "套餐里的帐篷是哪个厂家生产的？", "gold_answer": "语料未收录，应拒答", "gold_keywords": [], "gold_docs": [], "should_refuse": true}
+{"id": "b07", "type": "boundary", "question": "会员等级一共有几级？", "gold_answer": "语料未收录，应拒答", "gold_keywords": [], "gold_docs": [], "should_refuse": true}
+{"id": "b08", "type": "boundary", "question": "12 月到次年 2 月有营业的套餐吗？", "gold_answer": "语料未收录，应拒答（三个套餐只覆盖 3 月至 11 月）", "gold_keywords": [], "gold_docs": [], "should_refuse": true}
+{"id": "c01", "type": "confusable", "question": "取消订单和申请退款有什么区别，什么时候用哪个？", "gold_answer": "未付款（待支付）用取消订单，不用退款；已付款未派车（已支付）用申请退款，全额退", "gold_keywords": ["取消", "退款", "待支付", "已支付"], "gold_docs": ["04-取消与退款.md"], "should_refuse": false}
+{"id": "c02", "type": "confusable", "question": "改期和续租有什么不同？", "gold_answer": "改期是换一天使用、金额不变，限待支付和已支付；续租是多用几天、按 50% 单价加收，限使用中", "gold_keywords": ["改期", "续租", "50"], "gold_docs": ["05-改期与续租.md"], "should_refuse": false}
+{"id": "c03", "type": "confusable", "question": "东湖营地和梁子湖营地当日容量分别是多少？", "gold_answer": "东湖 50 份，梁子湖 30 份", "gold_keywords": ["50", "30"], "gold_docs": ["02-营地介绍.md"], "should_refuse": false}
+{"id": "c04", "type": "confusable", "question": "三个套餐分别可以预约到哪几个月？", "gold_answer": "春日基础 3-5 月，夏日星空 6-8 月，秋日团建 9-11 月", "gold_keywords": ["3", "5", "6", "8", "9", "11"], "gold_docs": ["01-套餐说明.md"], "should_refuse": false}
